@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		817A03AC2BF986FE0006A274 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A03AB2BF986FE0006A274 /* main.swift */; };
+		817A03B42BF987A40006A274 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A03B32BF987A40006A274 /* Pokemon.swift */; };
+		817A03B62BF98A310006A274 /* GigantamaxPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817A03B52BF98A310006A274 /* GigantamaxPokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		817A03A82BF986FE0006A274 /* Pokedex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pokedex; sourceTree = BUILT_PRODUCTS_DIR; };
 		817A03AB2BF986FE0006A274 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		817A03B32BF987A40006A274 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		817A03B52BF98A310006A274 /* GigantamaxPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigantamaxPokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		817A03AA2BF986FE0006A274 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				817A03B22BF9877D0006A274 /* Models */,
 				817A03AB2BF986FE0006A274 /* main.swift */,
 			);
 			path = Pokedex;
+			sourceTree = "<group>";
+		};
+		817A03B22BF9877D0006A274 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				817A03B32BF987A40006A274 /* Pokemon.swift */,
+				817A03B52BF98A310006A274 /* GigantamaxPokemon.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817A03B62BF98A310006A274 /* GigantamaxPokemon.swift in Sources */,
 				817A03AC2BF986FE0006A274 /* main.swift in Sources */,
+				817A03B42BF987A40006A274 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
